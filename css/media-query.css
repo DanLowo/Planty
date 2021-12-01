@@ -125,7 +125,13 @@
     }  
 
     .testimonials div.qoute p {
+        font-size: 15px;
         width: 90%;
+    }
+
+    .testimonials div.qoute p span {
+        font-size: 17px;
+        font-weight: 700;
     }
 
     .testimonials div.qoute img {
@@ -147,6 +153,10 @@
 
     .subscribe div h1 {
         font-size: 22px;
+    }
+
+    .subscribe p {
+        font-size: 15px;
     }
 
 
