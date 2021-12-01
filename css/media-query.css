@@ -150,6 +150,13 @@
     }
 
 
+    /* FOOTER */
+    footer .credits {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
 
     .only-mobile {
         display: none;

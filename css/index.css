@@ -300,3 +300,28 @@ nav .nav-container {
     width: 25%;
 }
  */
+
+
+
+
+ /* FOOTER */
+ footer {
+    margin-top: 50px;
+ }
+
+ footer .credits {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer h3#credit-header {
+    text-align: center;
+    color: var(--gray-color);
+    margin-bottom: 10px;
+}
+
+footer h4 a {
+    color: var(--light-gray);
+    text-decoration: underline;
+}
