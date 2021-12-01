@@ -1,0 +1,302 @@
+:root {
+    --green-color: #67DDBD;
+    --black-color: #333131;
+    --gray-color: #595860;
+    --dark-green: #1C2508;
+    --purple-color: #231836;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 5vh 10vw;
+    color: var(--black-color);
+}
+
+.home-container {
+    height: 90vh;
+}
+
+
+/* NAVIGATION BAR */
+nav .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.nav-container ul a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.nav-container .title {
+    font-size: 12px;
+    color: var(--black-color);
+}
+
+
+
+/* JUMBOTRON */
+.jumbotron {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron .purpose h1 {
+    font-size: 40px;
+}
+
+.jumbotron .purpose p {
+    margin-top: 15px;
+    width: 65%;
+    font-size: 17px;
+    color: var(--gray-color);
+}
+
+.jumbotron .purpose .call-to-action {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+/* RESULTS */
+.results {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-evenly;
+}
+
+.results .item {
+    width: 30%;
+    padding-left: 15px;
+    border-left: 4px solid var(--green-color);
+}
+
+.results .item .heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.results .item h2 {
+    font-size: 32px;
+}
+
+.results .item h5 {
+    font-size: 18px;
+}
+
+.results .item p {
+    color: var(--gray-color);
+}
+
+
+
+/* SPECIAL PLANT */ 
+.special-plant {
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-plant .content h1 {
+    width: 60%;
+    font-size: 30px;
+}
+
+.special-plant .properties {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.special-plant .properties .item {
+    width: 45%;
+    margin-bottom: 30px;
+}
+
+.special-plant .properties .item i {
+    color: gray;
+}
+
+.special-plant .properties .heading {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.special-plant .properties p {
+    font-size: 14px;
+    width: 60%;
+    color: var(--gray-color);
+}
+
+.special-plant img {
+    border-radius: 10px;
+}
+
+
+
+
+/* ELEVATED PLANTER */
+.elevated-planter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.elevated-planter h1 {
+    font-size: 25px;
+}
+
+.elevated-planter img {
+    border-radius: 6px;
+    width: 70%;
+    height: 300px;
+}
+
+
+
+/* OUR PRODUCTS */
+.our-products h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.products .item {
+    width: 20%;
+    text-align: center;
+}
+
+.products .item h2 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.products .item p {
+    color: var(--gray-color);
+    font-size: 15px;
+}
+
+.products .item img {
+    max-width: 100%;
+    height: 200px
+}
+
+
+
+
+/* TESTIMONIALS */
+.testimonials h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.testimonials div.qoute {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--purple-color);
+    padding: 50px 30px;
+    padding-left: 70px;
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+
+.testimonials div.qoute p {
+    width: 50%;
+}
+
+.testimonials div.qoute p span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.testimonials div.qoute img {
+    position: relative;
+    right: 6vw;
+    border-radius: 10px;
+    transform: scale(2.2);
+    max-width: 140px;
+    height: 120px;
+}
+
+
+
+/* SUBSCRIBE */
+.subscribe {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe div {
+    text-align: center;
+    max-width: 450px;
+    padding: 30px 50px;
+    border-radius: 10px;
+    background-color: var(--green-color);
+}
+
+.subscribe div h1 {
+    color: var(--purple-color);
+}
+
+.subscribe div p {
+    margin: 10px 0;
+    color: white;
+}
+
+.subscribe div button {
+    margin-top: 20px;
+    background-color: var(--purple-color);
+}
+
+
+
+
+/* CLIENTS */
+/* .clients h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.clients div {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.clients div img {
+    max-height: 1600px;
+    width: 25%;
+}
+ */

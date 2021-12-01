@@ -1,0 +1,157 @@
+@media screen and (max-width: 550px) {
+
+    /* UTILITIES */
+    button {
+        padding: 10px 24px;
+    }
+
+    body {
+        padding: 5vh 7vw;
+    }
+
+    .mt-section {
+        margin-top: 60px;
+    }
+
+
+
+
+
+
+
+    /* NAVIGATION BAR */
+    /* nav .nav-container {} */
+
+
+
+    /* JUMBOTRON */
+    .jumbotron {
+        margin-top: 20px;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .jumbotron img {
+        max-width: 100vw;
+    }
+
+    .jumbotron .purpose h1 {
+        font-size: 30px;
+    }
+
+    .jumbotron .purpose p {
+        width: 100%;
+    }
+
+
+
+    /* RESULTS */
+    .results {
+        gap: 45px;
+        margin-top: 60px;
+        flex-direction: column;
+    }
+
+    .results .item {
+        width: 100%;
+    }
+
+    .results .item .heading {
+        align-items: flex-start;
+        gap: 0px;
+        flex-direction: column;
+    }
+
+
+
+    /* SPECIAL PLANT */ 
+    .special-plant {
+        flex-direction: column-reverse;
+    }
+
+    .special-plant .content h1 {
+        width: 100%;
+    }
+
+    .special-plant .properties {
+        justify-content: space-between;
+    }
+
+    .special-plant .properties p {
+        width: 100%;
+    }
+
+    .special-plant img {
+        max-width: 100%;
+    }
+
+
+
+    /* ELEVATED PLANTER */
+    .elevated-planter {
+        flex-direction: column;
+    }
+
+    .elevated-planter img {
+        width: 100%;
+        height: 200px;
+    }
+
+
+
+
+    /* OUR PRODUCTS */
+    .our-products h1 {
+        margin-bottom: 15px;
+    }
+
+    .our-products .products {
+        flex-direction: column;
+        gap: 20px;
+    } 
+
+    .products .item {
+        width: 100%;
+    }
+
+
+
+
+    /* TESTIMONIALS */
+    .testimonials div.qoute {
+        flex-direction: column-reverse;
+        padding: 30px 0px;
+        height: auto;
+    }  
+
+    .testimonials div.qoute p {
+        width: 90%;
+    }
+
+    .testimonials div.qoute img {
+        margin-bottom: 20px;
+        position: static;
+        right: 0;
+        transform: scale(1);
+        max-width: 100%;
+    }
+
+
+
+    /* SUBSCRIBE */
+    .subscribe div {
+        max-width: 100%;
+        width: 100%;
+        padding: 30px 10px;
+    }
+
+    .subscribe div h1 {
+        font-size: 22px;
+    }
+
+
+
+    .only-mobile {
+        display: none;
+    }
+}
